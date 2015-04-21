@@ -162,6 +162,19 @@
 .info .h1,h1{
 	font-size: 60pt;
 }
+@media (max-width: 768px){
+.info .h1,h1{
+	font-size: 36pt;
+}
+#index .h3, h3, #app .h2 ,h2{
+	font-size: 20pt;
+}
+
+#index .h4,h4{
+	font-size: 16pt;
+}
+}
+
 
 #thanks-head{
 	font-family: 'Oswald', sans-serif;
