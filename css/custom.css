@@ -98,7 +98,7 @@
 .pilar-pic, .service-pic{
 	min-height: 260px;
 	border-radius: 4px;
-	background: no-repeat;
+	background: no-repeat center center;
 	background-size: cover;
 	opacity: .5;
 }
