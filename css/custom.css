@@ -1,30 +1,86 @@
 /*.MB ,.pilars, .members, .service{
 	height: 90vh;
-}
+}*/
 
-.contact{
-	height: 70vh;
+
+#contact, #app .questions, #thankyou, #index{
+	/*height: 70vh;*/
 	background-color: #C1C1C1;
 }
 
-.MB, .members{
-	background-color: #FFCC00;
+.navbar-brand {
+  padding: 0px 0px;
+}
+
+.navbar-default {
+  background-color: #939393;
+  border-color: #939393;
+}
+.nav>li {
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: #D8D8D8;
+}
+
+.info, #thankyou{
+	color:white;
+}
+@media (min-width: 768px){
+#background_cycler{
+	padding:0;
+	margin:0;
+	margin-top: 40px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	background-size: cover;
+	opacity: .6;
+}
+
+#background_cycler img{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 570px;
+	z-index:1;
+}
+
+#background_cycler img.active{
+	z-index:3;
+}
+}
+
+@media (max-width: 768px){
+.info .MB{
+	background-color: #FFDA47;
+}
+}
+.members{
+	background-color: #FFDA47;
 }
 
 .pilars,.service{
 	background-color: #B2B2B2;
-}*/
+}
 
 .pilar, .serve{
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  color:white;
 }
 .pilar-pic, .service-pic{
 	min-height: 260px;
 	border-radius: 4px;
-	background: no-repeat center center;
+	background: no-repeat;
 	background-size: cover;
+	opacity: .5;
 }
 
 .pilar-pic-body, .service-pic-body{
@@ -35,10 +91,78 @@
   	text-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 
-/*/*.contact-form{
+#app{
+	background-color: #FFDA47;
+}
+
+.contact-form, #app .form-control{
 	background-color: #D8D8D8;
-}*/
+}
 
 .active{
 	background-color: #FFDA47;
+}
+
+.btn-primary, .btn-default{
+  color: #fff;
+  background-color: #FFCC00;
+  opacity: .6;
+  border-color: transparent;
+  font-family: 'Lobster', cursive;
+  font-size: 16pt;
+}
+.members .btn-primary, .app-button {
+  color: #fff;
+  background-color: #B2B2B2;
+  opacity: .6;
+  border-color: transparent;
+}
+.btn-primary:hover, .btn-default:hover{
+  color: #fff;
+  background-color: #FFCC00;
+  opacity: 1;
+  border-color: transparent;
+}
+.members .btn-primary:hover, .app-button:hover{
+  color: #fff;
+  background-color: #B2B2B2;
+  opacity: 1;
+  border-color: transparent;
+}
+@media (max-width: 768px){
+.info .MB{
+	background-color: #FFDA47;
+}
+
+.main-btn{
+	color: #fff;
+  background-color: #B2B2B2;
+  opacity: .6;
+  border-color: transparent;
+}
+
+.main-btn:hover{
+	 color: #fff;
+  background-color: #B2B2B2;
+  opacity: 1;
+  border-color: transparent;
+}
+}
+
+#index, #app, #thankyou{
+	font-family: 'Ubuntu', sans-serif;
+}
+.info .h4,h4{
+	font-family: 'Oswald', sans-serif;
+}
+#index .h3, h3, #app .h2 ,h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30pt;
+}
+.info .h1,h1{
+	font-size: 60pt;
+}
+
+#thanks-head{
+	font-family: 'Oswald', sans-serif;
 }
