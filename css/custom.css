@@ -94,11 +94,12 @@
 	opacity: .5;
 }
 }
+
 @media (max-width: 768px){
 .pilar-pic, .service-pic{
 	min-height: 260px;
 	border-radius: 4px;
-	background: no-repeat center center;
+	background: no-repeat;
 	background-size: cover;
 	opacity: .5;
 }
