@@ -25,6 +25,9 @@
   background-color: #D8D8D8;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
 .info, #thankyou{
 	color:white;
 }
@@ -81,6 +84,24 @@
 	background: no-repeat;
 	background-size: cover;
 	opacity: .5;
+}
+@media (max-width: 992px){
+.pilar-pic, .service-pic{
+	min-height: 260px;
+	border-radius: 4px;
+	background: no-repeat center center;
+	background-size: cover;
+	opacity: .5;
+}
+}
+@media (max-width: 768px){
+.pilar-pic, .service-pic{
+	min-height: 260px;
+	border-radius: 4px;
+	background: no-repeat;
+	background-size: cover;
+	opacity: .5;
+}
 }
 
 .pilar-pic-body, .service-pic-body{
@@ -178,4 +199,9 @@
 
 #thanks-head{
 	font-family: 'Oswald', sans-serif;
+}
+
+#mem-pic.col-sm-6.col-md-4{
+	height: 198px;
+	background-color: red;
 }
