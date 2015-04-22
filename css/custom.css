@@ -78,14 +78,8 @@
   margin-bottom: 20px;
   color:white;
 }
-.pilar-pic, .service-pic{
-	min-height: 260px;
-	border-radius: 4px;
-	background: no-repeat;
-	background-size: cover;
-	opacity: .5;
-}
-@media (max-width: 992px){
+
+@media (min-width: 768px){
 .pilar-pic, .service-pic{
 	min-height: 260px;
 	border-radius: 4px;
@@ -100,6 +94,16 @@
 	min-height: 260px;
 	border-radius: 4px;
 	background: no-repeat;
+	background-size: cover;
+	opacity: .5;
+}
+}
+
+@media (max-width: 640px){
+.pilar-pic, .service-pic{
+	min-height: 260px;
+	border-radius: 4px;
+	background: no-repeat center center;
 	background-size: cover;
 	opacity: .5;
 }
