@@ -125,6 +125,16 @@
 }
 }
 
+@media (max-width: 400px){
+.pilar-pic, .service-pic{
+	min-height: 260px;
+	border-radius: 4px;
+	background: no-repeat center center;
+	background-size: cover;
+	opacity: .5;
+}
+}
+
 .pilar-pic-body, .service-pic-body{
 	position: absolute;
   	bottom: 20px;
